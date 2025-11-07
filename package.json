@@ -1,0 +1,15 @@
+{
+  "name": "wildfire-bot",
+  "version": "1.0.0",
+  "description": "Englympics wildfire bot (Express)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "simulate": "node scripts/simulate.js test_state.json"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
